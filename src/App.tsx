@@ -1,11 +1,13 @@
 import Carthead from "./Carthead";
-import Logo from "./Logo";
+import Mainpage from "./Mainpage";
+import Products from "./Products";
 
 function App() {
   return (
     <>
       <Carthead />
-      <Logo />
+      <Mainpage />
+      <Products />
     </>
   );
 }
