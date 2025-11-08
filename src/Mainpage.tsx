@@ -5,7 +5,7 @@ import { GiCroissant } from "react-icons/gi";
 function Mainpage() {
   return (
     <body>
-      <div className="ml-[19vh] flex flex-row mt-3.5 font-[Fraunces] font-bold space-x-[20vh]">
+      <div className="ml-[19vh] flex flex-row mt-12 font-[Fraunces] font-bold space-x-[20vh]">
         <img src={logo} alt="Company Logo" />
         <div className="flex flex-row items-center justify-end space-x-[15vh] mt-5">
           <a href="#">
@@ -22,7 +22,7 @@ function Mainpage() {
           </a>
 
           <a href="#">
-            <p className="text-2xl bg-[#4b2d24] text-[#e7ddd1] rounded-[100px] p-6">
+            <p className="text-2xl bg-[#4b2d24] text-[#e7ddd1] rounded-[100px] py-3 px-7">
               Order Now
             </p>
           </a>
