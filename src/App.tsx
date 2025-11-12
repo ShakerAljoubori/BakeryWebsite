@@ -2,6 +2,7 @@ import Carthead from "./Carthead";
 import Mainpage from "./Mainpage";
 import Products from "./Products";
 import Visit from "./Visit";
+import Footer from "./Footer";
 import Cupcake from "./assets/Cupcake.jpg";
 import Brownie from "./assets/Brownie.jpg";
 import Kek from "./assets/Kek.jpg";
@@ -32,6 +33,7 @@ function App() {
         />
       </div>
       <Visit />
+      <Footer />
     </>
   );
 }

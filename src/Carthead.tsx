@@ -12,11 +12,15 @@ function Carthead() {
         <a href="#">
           <FaShoppingBag className="mr-1.5 mt-[3px]" />
         </a>
-        <p className="mr-[10vh]">View shopping cart</p>
+        <a href="#">
+          <p className="mr-[10vh]">View shopping cart</p>
+        </a>
         <a href="">
           <FaDollarSign className="mr-1.5 mt-[3px]" />
         </a>
-        <p className="mr-[10vh]">View Balance</p>
+        <a href="">
+          <p className="mr-[10vh]">View Balance</p>
+        </a>
         <div className="flex flex-row inline-flex mr-[24vh] space-x-4">
           <a href="">
             <FaFacebook className="mr-1.5 mt-[3px]" />
